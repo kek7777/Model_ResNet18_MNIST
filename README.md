@@ -1,7 +1,7 @@
 <!-- ![Image for Readme](https://github.com/kek7777/Links/raw/main/Resnet.gif) -->
 
 
-<img src="https://github.com/kek7777/Links/raw/main/Resnet.gif" width="900" height="220">
+<img src="https://github.com/kek7777/Links/raw/main/Resnet.gif" width="800" height="150">
 
 #  **ResNet18 using Pytorch**
 
