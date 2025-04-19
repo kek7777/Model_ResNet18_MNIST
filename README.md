@@ -1,4 +1,4 @@
-<img src="C:\Users\Admin\Stepik\Resnet.gif" width="900" height="220">
+<img src="Resnet.gif" width="900" height="220">
 
 #  **ResNet18 using Pytorch**
 
