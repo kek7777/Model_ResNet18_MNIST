@@ -28,17 +28,17 @@ You can analyze the accuracy of a model based on its hyperparameters.
 
 <!-- MODEL's STRUCTURE -->
  ## Model's structure
- <img src="objects\arh_resnet18.png" width="800" height="250">
+ <img src="objects\arh_resnet18.png" width="800" height="200">
 
  The model includes:
  * Input layer (224x224x1)
  * Convolution layer ( kernel - 7x7, channels - 64, stride - 2, padding - 3)
  * Subsampling layer (max pooling 3x3, stride - 2, padding - 1)
- * Residual block groups - 4:
- group 1:  2 residual block (kernel - 3x3, channels - 64, stride - 1)
- group 2:  2 residual block (kernel - 3x3, channels - 128, stride - 2)
- group 3:  2 residual block (kernel - 3x3, channels - 256, stride - 2)
- group 4:  2 residual block (kernel - 3x3, channels - 512, stride - 2)   
+ * Residual block groups - 4: /
+ group 1:  2 residual block (kernel - 3x3, channels - 64, stride - 1) /
+ group 2:  2 residual block (kernel - 3x3, channels - 128, stride - 2) /
+ group 3:  2 residual block (kernel - 3x3, channels - 256, stride - 2)/
+ group 4:  2 residual block (kernel - 3x3, channels - 512, stride - 2) /  
  * Subsampling layer (average pooling 1x1)
  * Fully connected layer (channels - 10)
 
