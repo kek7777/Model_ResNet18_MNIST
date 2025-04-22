@@ -29,7 +29,7 @@ You can analyze the accuracy of a model based on its hyperparameters.
 <!-- MODEL's STRUCTURE -->
 ## Structure of the model
 
- <img src="objects\arh_resnet18.png" width="800" height="200">
+ <img src="objects\arh_resnet18.png" width="800" height="200">  
 
 **The model includes:**
 * Input layer (224x224x1)
