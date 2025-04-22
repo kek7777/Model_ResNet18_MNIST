@@ -12,7 +12,7 @@ You can analyze the accuracy of a model based on its hyperparameters.
 <details>
   <summary> Table of Contents </summary>
   <ol>
-    <li><a href="#Structure">Model's structure</a></li>
+    <li><a href="#structure-of">Model's structure</a></li>
     <li>
           <a href="#getting-started">Getting Started</a>
           <ul>
@@ -27,7 +27,7 @@ You can analyze the accuracy of a model based on its hyperparameters.
 </details>
 
 <!-- MODEL's STRUCTURE -->
-## Structure
+## Structure of
 
  <img src="objects\arh_resnet18.png" width="800" height="200">
 
@@ -92,6 +92,7 @@ _Below is an example of how you can instruct your audience on installing and set
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
  <!-- Source of information -->
+ 
  ## Source of information
  
  Information that was used in the development of the project.
