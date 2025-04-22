@@ -12,7 +12,7 @@ You can analyze the accuracy of a model based on its hyperparameters.
 <details>
   <summary> Table of Contents </summary>
   <ol>
-    <li><a href="#Model's structure">Model's structure</a></li>
+    <li><a href="#Structure">Model's structure</a></li>
     <li>
           <a href="#getting-started">Getting Started</a>
           <ul>
@@ -27,7 +27,7 @@ You can analyze the accuracy of a model based on its hyperparameters.
 </details>
 
 <!-- MODEL's STRUCTURE -->
-## Model's structure
+## Structure
 
  <img src="objects\arh_resnet18.png" width="800" height="200">
 
