@@ -12,22 +12,22 @@ You can analyze the accuracy of a model based on its hyperparameters.
 <details>
   <summary> Table of Contents </summary>
   <ol>
-    <li><a href="#structure-of">Model's structure</a></li>
+    <li><a href="#structure-of-the-model">Structure of the model</a></li>
     <li>
           <a href="#getting-started">Getting Started</a>
           <ul>
-            <li><a href="#file assignment">File assignment</a></li>
+            <li><a href="#file-assignment">File assignment</a></li>
             <li><a href="#installation">Installation</a></li>
           </ul>
     </li>
     <li><a href="#license">License</a></li>
-    <li><a href="#Source of information">Source of information</a></li>
+    <li><a href="#Source-of-information">Source of information</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 <!-- MODEL's STRUCTURE -->
-## Structure of
+## Structure of the model
 
  <img src="objects\arh_resnet18.png" width="800" height="200">
 
