@@ -70,9 +70,8 @@ _Below is an example of how you can  installing and setting up model._
    ```
    pip install -r requirements.txt
    ```
-3. Preparation your data for classification:
-  1.Upload the label data to folder "/data/Test_data" and "/data/Train_data".
-  2.Run the file "data.py"
+3. Upload the label data to folder "/data/Test_data" and "/data/Train_data".
+  
 
 
    ```js
