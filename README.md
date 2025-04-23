@@ -56,20 +56,25 @@ The information about file assignment of the project and how that used.
 This is an example of how to list things you need to use the software and how to install them.
 * requirements.txt (For installing the main packages)
 * MAIN.ipybn (For starting the model)
+* data.py (For preparation data)
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can  installing and setting up model._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/kek7777/Model_ResNet18_MNIST.git
    ```
 2. Install packages
    ```
    pip install -r requirements.txt
    ```
-3. Enter your API in `config.js`
+3. Preparation your data for classification:
+  1.Upload the label data to folder "/data/Test_data" and "/data/Train_data".
+  2.Run the file "data.py"
+
+
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
