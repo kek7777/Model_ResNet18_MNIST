@@ -49,15 +49,13 @@ Model's activation functions are RELU.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The information about file assignment of project and how that used.
+The information about file assignment of the project and how that used.
 
 ### File assignment
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* requirements.txt (For installing the main packages)
+* MAIN.ipybn (For starting the model)
 
 ### Installation
 
