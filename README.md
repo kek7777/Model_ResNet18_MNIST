@@ -54,9 +54,9 @@ The information about file assignment of the project and how that used.
 ### File assignment
 
 This is an example of how to list things you need to use the software and how to install them.
-* requirements.txt (For installing the main packages)
-* MAIN.ipybn (For starting the model)
-* data.py (For preparation data)
+* requirements.txt (for installing the main packages)
+* MAIN.ipybn (for starting the model)
+* data.py (for preparation data)
 
 ### Installation
 
@@ -66,22 +66,19 @@ _Below is an example of how you can  installing and setting up model._
    ```sh
    git clone https://github.com/kek7777/Model_ResNet18_MNIST.git
    ```
-2. Install packages
+2. Install the packages
    ```
    pip install -r requirements.txt
    ```
-3. Upload the label data to folder "/data/Test_data" and "/data/Train_data".
+3. Preparation the data
+  * Upload the label data to folder "/data".
+  * Define lenght the training and test data (default: training 70%, test 30%).
+  * To change lenght training and test data you should change "int(0.7*len(data))" in data.py to your values.
   
+4. If you want to train and test the model by IDE then start MAIN.ipynb.
+ 
+5. If you want to analyze the model by MLflow then start MAIN_mlflow.ipynb.
 
-
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-4. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
