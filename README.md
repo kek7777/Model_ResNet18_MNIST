@@ -73,7 +73,7 @@ _Below is an example of how you can  installing and setting up model._
 3. Preparation the data
   * Upload the label data to folder "/data".
   * Define lenght the training and test data (default: training 70%, test 30%).
-  * To change lenght training and test data you should change "int(0.7*len(data))" in data.py to your values.
+  * To change lenght training and test data you should change "int(0.7*len(data))" in dataset.py to your values.
   
 4. If you want to train and test the model by IDE then start MAIN.ipynb.
  
