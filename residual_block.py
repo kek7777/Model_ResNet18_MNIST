@@ -1,5 +1,7 @@
 from torch import nn 
+
 #building residual block (num = 8)
+
 class Residual_block (nn.Module):
     def __init__(self, in_block, out_block, stride=1):
          super(Residual_block, self).__init__()
