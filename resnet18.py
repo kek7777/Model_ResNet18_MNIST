@@ -26,7 +26,6 @@ class ResNet18 (nn.Module):
             self.in_block = out_block
         return nn.Sequential(*layers)                             # выводит не список, а значения элементов списка
   
-    
     def forward(self, x):
         out = self.conv1(x)
         out = self.bn1(out)
