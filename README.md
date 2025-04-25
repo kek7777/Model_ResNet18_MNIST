@@ -55,8 +55,11 @@ The information about file assignment of the project and how that used.
 
 This is an example of how to list things you need to use the software and how to install them.
 * requirements.txt (for installing the main packages)
-* MAIN.ipybn (for starting the model)
-* data.py (for preparation data)
+* MAIN.ipybn (for starting the model by IDE)
+* MAIN_mlflow.ipybn (for starting the model by MLflow)
+* dataset.py (for preparation data)
+* residual_block.py (for develop the residual blocks with skip connections)
+* resnet18.py (for develop the model' structure)
 
 ### Installation
 
@@ -66,7 +69,7 @@ _Below is an example of how you can  installing and setting up model._
    ```sh
    git clone https://github.com/kek7777/Model_ResNet18_MNIST.git
    ```
-2. Install the packages
+2. Install packages if necessary
    ```
    pip install -r requirements.txt
    ```
