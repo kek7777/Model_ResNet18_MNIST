@@ -8,8 +8,8 @@ data_tfs = tfs.Compose([
     tfs.Grayscale()
 ])
 data = dst.ImageFolder(r'data', transform = data_tfs)                   # Create dataset.
-len_data_train = int(0.7*len(data))                                      # Define len train and test data (default: train 70%, test 30%).
-len_data_test = int(0.3*len(data))                                       # If you want to change len train and test you should change
+len_data_train = int(0.7*len(data))                                     # Define len train and test data (default: train 70%, test 30%).
+len_data_test = int(0.3*len(data))                                      # If you want to change len train and test you should change
                                                                          # "int(0.7*len(data))" to your values.
                                                                          # For ex.,  len_data_train = 10000.     
 
