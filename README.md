@@ -1,4 +1,4 @@
-<img src="objects\Resnet.gif" width="800" height="150">
+<img src="images\Resnet.gif" width="800" height="150">
 
 <a id="readme-top"></a>
 
@@ -29,7 +29,7 @@ You can analyze the accuracy of a model based on its hyperparameters.
 <!-- MODEL's STRUCTURE -->
 ## Structure of the model
 
- <img src="objects\arh_resnet18.png" width="800" height="200">  
+ <img src="images\arh_resnet18.png" width="800" height="200">  
 
 **The model includes:**
 * Input layer (224x224x1)
